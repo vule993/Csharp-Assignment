@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6ah+NV5BU7vAQio1FgqKtif4bIfz4P1UkRu8Aj1nH4U5M+P/8LY2bI9k6VBesMLz94ov6SoE66lU9S1osrhrHw==",
+  "success": true,
+  "projectFilePath": "D:\\IT\\Interview\\Csharp-Assignment\\Products\\Products\\Products.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vukasin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

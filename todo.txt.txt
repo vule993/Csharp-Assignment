@@ -1,0 +1,59 @@
+1. .NET Core project
+2. Create Product class
+3. Create Supplier class
+4. JSON file putanja: \Products\Products\bin\Debug
+5. Displaying data
+
+
+Pitanja: 
+
+
+1. Da li je json fajl zamisljen kao sto sam trenutno napravio (\Products\Products\bin\Debug) ili bi trebalo nekako drugacije organizovati podatke (videti pitanje 3.)?
+
+2. Iz prikaza sam potpuno izbacio one proizvode kojima je quantity = 0, da li je to ok?
+
+3. "Note: The final number of products does depend if the same instance of the product(s) is/are used 
+	by different suppliers. The products are provided from one central storage unit. The purpose of 
+	this console application is just to show the prices of the products by different suppliers."
+		*Kod ove napomene me buni zajednicko skladiste. Da li je potrebno odvojeno ucitati odredjeni broj proizvoda, pa odredjeni broj dobavljaca i veze izmedju njih, kako bi programski bilo 
+		moguce da ako vise dobavljaca dele jedan proizvod imaju na raspolaganju istu kolicinu
+		
+		znaci JSON formata: 
+		
+		{
+			Products: [
+				{...p1...},
+				{...p2...},
+				{...p3...},
+				{...p4...},
+				   ...
+			],
+			Suppliers: [
+				{...S1...},
+				{...S2...},
+				{...S3...},
+				{...S4...},
+				   ...
+			],
+			Relations:[
+				{
+					supplierId: 1,
+					productId: 2
+				},
+				{
+					supplierId: 1,
+					productId: 4
+				},
+				{
+					supplierId: 2,
+					productId: 2
+				},
+				{
+					supplierId: 2,
+					productId: 1
+				}
+			]
+		}
+		
+		pa da na osnovu njega uradim veze i tzv "deljeno skladiste" ili je ok ovako kako sam napravio?
+		
