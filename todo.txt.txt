@@ -10,9 +10,7 @@ Pitanja:
 
 1. Da li je json fajl zamisljen kao sto sam trenutno napravio (\Products\Products\bin\Debug) ili bi trebalo nekako drugacije organizovati podatke (videti pitanje 3.)?
 
-2. Iz prikaza sam potpuno izbacio one proizvode kojima je quantity = 0, da li je to ok?
-
-3. "Note: The final number of products does depend if the same instance of the product(s) is/are used 
+2. "Note: The final number of products does depend if the same instance of the product(s) is/are used 
 	by different suppliers. The products are provided from one central storage unit. The purpose of 
 	this console application is just to show the prices of the products by different suppliers."
 		*Kod ove napomene me buni zajednicko skladiste. Da li je potrebno odvojeno ucitati odredjeni broj proizvoda, pa odredjeni broj dobavljaca i veze izmedju njih, kako bi programski bilo 
