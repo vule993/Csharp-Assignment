@@ -1,0 +1,64 @@
+{
+    "Suppliers": [
+        {
+            "Id": 1,
+            "Name": "Supplier 1",
+            "Products": [
+                
+            ],
+            "Markup": 10
+        },
+        {
+            "Id": 2,
+            "Name": "Supplier 2",
+            "Products": [
+                
+            ],
+            "Markup": 20
+        }
+    ],
+    "Products": [
+        {
+            "Id": 1,
+            "Name": "Product 1",
+            "Quantity": 0,
+            "InitialPrice": 100
+        },
+        {
+            "Id": 2,
+            "Name": "Product 2",
+            "Quantity": 2,
+            "InitialPrice": 100
+        },
+        {
+            "Id": 3,
+            "Name": "Product 3",
+            "Quantity": 5,
+            "InitialPrice": 300
+        },
+        {
+            "Id": 4,
+            "Name": "Product 6",
+            "Quantity": 1,
+            "InitialPrice": 100
+        }
+    ],
+    "Relations": [
+        {
+            "SupplierId": 1,
+            "ProductId":1
+        },
+        {
+            "SupplierId": 1,
+            "ProductId":3
+        },
+        {
+            "SupplierId": 2,
+            "ProductId":3
+        },
+        {
+            "SupplierId": 2,
+            "ProductId":4
+        }
+    ]
+}
