@@ -1,0 +1,16 @@
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\bin\Debug\net5.0\ProductsV2.exe
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\bin\Debug\net5.0\ProductsV2.deps.json
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\bin\Debug\net5.0\ProductsV2.runtimeconfig.json
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\bin\Debug\net5.0\ProductsV2.runtimeconfig.dev.json
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\bin\Debug\net5.0\ProductsV2.dll
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\bin\Debug\net5.0\ref\ProductsV2.dll
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\bin\Debug\net5.0\ProductsV2.pdb
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\obj\Debug\net5.0\ProductsV2.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\obj\Debug\net5.0\ProductsV2.AssemblyInfoInputs.cache
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\obj\Debug\net5.0\ProductsV2.AssemblyInfo.cs
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\obj\Debug\net5.0\ProductsV2.csproj.CoreCompileInputs.cache
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\obj\Debug\net5.0\ProductsV2.dll
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\obj\Debug\net5.0\ref\ProductsV2.dll
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\obj\Debug\net5.0\ProductsV2.pdb
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\obj\Debug\net5.0\ProductsV2.genruntimeconfig.cache
+D:\IT\Interview\Csharp-Assignment\ProductsV2\ProductsV2\obj\Debug\net5.0\ProductsV2.csproj.AssemblyReference.cache
