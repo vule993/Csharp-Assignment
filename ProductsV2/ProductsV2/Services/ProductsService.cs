@@ -18,7 +18,7 @@ namespace ProductsV2.Services
             this._repository = _repository;
         }
 
-        public async Task<Dictionary<int, Supplier>> GetProducts()
+        public async Task<Dictionary<int, Supplier>> GetProductsPerSupplier()
         {
             Dictionary<int, Supplier> Suppliers = new Dictionary<int, Supplier>();
             Product product;

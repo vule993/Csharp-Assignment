@@ -17,7 +17,7 @@ namespace ProductsV2
             using IHost host = CreateHostBuilder(args).Build();
             var productService = host.Services.GetRequiredService<IProductService>();
 
-            var suppliers = await productService.GetProducts();
+            var suppliers = await productService.GetProductsPerSupplier ();
             foreach(var supplier in suppliers)
             {
                 productService.PrintProductsPerSupplier(supplier.Value);

@@ -9,7 +9,7 @@ namespace ProductsV2.Common
 {
     public interface IProductService
     {
-        Task<Dictionary<int, Supplier>> GetProducts();
+        Task<Dictionary<int, Supplier>> GetProductsPerSupplier();
         void PrintProductsPerSupplier(Supplier supplier);
     }
 }
