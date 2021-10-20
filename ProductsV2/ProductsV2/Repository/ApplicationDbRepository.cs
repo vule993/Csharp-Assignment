@@ -20,6 +20,10 @@ namespace ProductsV2.Repository
 
         }
 
+        /// <summary>
+        /// Loads database from JSON file
+        /// </summary>
+        /// <returns>Returns database populated with data</returns>
         public async Task<Database> LoadFromJson()
         {
             try

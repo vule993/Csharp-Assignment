@@ -18,11 +18,15 @@ namespace ProductsV2.Services
             this._repository = _repository;
         }
 
+        /// <summary>
+        /// Retrieves all products per supplier based on relations
+        /// </summary>
+        /// <returns></returns>
         public async Task<Dictionary<int, Supplier>> GetProductsPerSupplier()
         {
+            var data = await _repository.LoadFromJson();
             Dictionary<int, Supplier> Suppliers = new Dictionary<int, Supplier>();
             Product product;
-            var data = await _repository.LoadFromJson();
 
             foreach (var relation in data.Relations)
             {
@@ -37,6 +41,10 @@ namespace ProductsV2.Services
             return Suppliers;
         }
 
+        /// <summary>
+        /// Prints all products per supplier
+        /// </summary>
+        /// <param name="supplier"></param>
         public void PrintProductsPerSupplier(Supplier supplier)
         {
             foreach (var product in supplier.Products)
