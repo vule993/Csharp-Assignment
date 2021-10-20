@@ -26,7 +26,6 @@ namespace ProductsV2.Models
             {
                 if (product.Available)
                 {
-                    product.SellingPrice = product.InitialPrice + (product.InitialPrice * Markup) / 100;
                     supplierString += product;
                 }
             }

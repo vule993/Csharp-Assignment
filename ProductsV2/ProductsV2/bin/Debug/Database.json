@@ -28,7 +28,7 @@
             "Id": 2,
             "Name": "Product 2",
             "Quantity": 2,
-            "InitialPrice": 100
+            "InitialPrice": 200
         },
         {
             "Id": 3,
@@ -40,7 +40,7 @@
             "Id": 4,
             "Name": "Product 4",
             "Quantity": 1,
-            "InitialPrice": 100
+            "InitialPrice": 400
         }
     ],
     "Relations": [
@@ -59,6 +59,10 @@
         {
             "SupplierId": 2,
             "ProductId":4
+        },
+		{
+            "SupplierId": 1,
+            "ProductId": 2
         }
     ]
 }

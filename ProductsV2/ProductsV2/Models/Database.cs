@@ -11,10 +11,5 @@ namespace ProductsV2.Models
         public List<Product> Products { get; set; }
         public List<Supplier> Suppliers { get; set; }
         public List<Relation> Relations { get; set; }
-
-        public Database()
-        {
-
-        }
     }
 }

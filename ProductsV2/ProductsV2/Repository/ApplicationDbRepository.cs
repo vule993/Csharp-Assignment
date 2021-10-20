@@ -1,4 +1,5 @@
-﻿using ProductsV2.Models;
+﻿using ProductsV2.Common;
+using ProductsV2.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -9,17 +10,17 @@ using System.Threading.Tasks;
 
 namespace ProductsV2.Repository
 {
-    class ApplicationDbRepository
+    public class ApplicationDbRepository: IRepository
     {
         private Database _database = null;
-        Dictionary<int, Supplier> Suppliers = new Dictionary<int, Supplier>();
+        private string databaseFile = "../Database.json"; //config
 
         public ApplicationDbRepository()
         {
 
         }
 
-        public async Task<Dictionary<int,Supplier>> LoadFromJson(string databaseFile)
+        public async Task<Database> LoadFromJson()
         {
             try
             {
@@ -31,22 +32,9 @@ namespace ProductsV2.Repository
                 Console.WriteLine($"Error occured during deserializing data... Error: {ex.Message}");
             }
 
-            return RelationsMapping();
+            return _database;
         }
 
-        private Dictionary<int, Supplier> RelationsMapping()
-        {
-            foreach(var relation in _database.Relations)
-            {
-                if (!Suppliers.ContainsKey(relation.SupplierId))
-                {
-                    Suppliers[relation.SupplierId] = _database.Suppliers.FirstOrDefault(s => s.Id == relation.SupplierId);
-                }
-                Suppliers[relation.SupplierId].Products.AddRange(_database.Products.FindAll(p => p.Id == relation.ProductId));
-            }
-
-            
-            return Suppliers;
-        }
+        
     }
 }
